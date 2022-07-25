@@ -46,14 +46,14 @@ storage on OSX will affect this (see [this comment](https://github.com/rust-lang
 Marks the function `foo` as a module constructor, called when a static
 library is loaded or an executable is started:
 
-```rust
+`````rust
     static INITED: AtomicBool = AtomicBool::new(false);
 
     #[ctor]
     fn foo() {
         INITED.store(true, Ordering::SeqCst);
     }
-```
+`````
 
 Creates a `HashMap` populated with strings when a static
 library is loaded or an executable is started (new in `0.1.7`):
