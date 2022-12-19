@@ -7,7 +7,7 @@ name = "ctor"
 version = "0.1.21"
 dependencies = [
  "libc-print",
- "quote 1.0.20",
+ "quote 1.0.23",
  "syn 1.0.75",
 ]
 
@@ -84,9 +84,9 @@ dependencies = [
 
 [[package]]
 name = "quote"
-version = "1.0.20"
+version = "1.0.23"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3bcdf212e9776fbcb2d23ab029360416bb1706b1aea2d1a5ba002727cbcab804"
+checksum = "8856d8364d252a14d474036ea1358d63c9e6965c8e5c1885c18f73d70bff9c7b"
 dependencies = [
  "proc-macro2 1.0.40",
 ]
@@ -109,7 +109,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b7f58f7e8eaa0009c5fec437aabf511bd9933e4b2d7407bd05273c01a8906ea7"
 dependencies = [
  "proc-macro2 1.0.40",
- "quote 1.0.20",
+ "quote 1.0.23",
  "unicode-xid 0.2.2",
 ]
 
